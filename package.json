@@ -1,0 +1,26 @@
+{
+  "name": "simple-one-time-keys",
+  "version": "0.0.0",
+  "description": "Generate cryptographic onetime keys in way similar to what's described in rfc7539",
+  "main": "index.js",
+  "dependencies": {
+    "sodium-universal": "^3.0.4"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tape": "^5.1.1"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/simple-one-time-keys.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/simple-one-time-keys/issues"
+  },
+  "homepage": "https://github.com/mafintosh/simple-one-time-keys"
+}
